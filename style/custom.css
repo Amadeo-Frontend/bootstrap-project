@@ -11,15 +11,23 @@ section {
 input, textarea {
     margin-bottom: 1rem;
 }
-textarea{
+
+textarea {
     margin-top: 1rem;
 }
+
 header ul {
     padding: 20px;
     margin: 10px;
 
 }
+header {
+    border-bottom: 1px solid rgb(22, 245, 18);
+}
 
+header h1 {
+    padding: 20px;
+}
 .card {
     width: 30%;
     float: left;
@@ -58,16 +66,6 @@ header ul {
 #sobre p {
     padding: 30px;
 }
-
-header {
-    border-bottom: 1px solid rgb(22, 245, 18);
-}
-
-header h1 {
-    padding: 20px;
-}
-
-
 #produtos {
     border-bottom: 1px solid rgb(22, 245, 18);
 }
@@ -85,6 +83,18 @@ header h1 {
     color: blue;
 }
 
+.foot {
+    border-top: 1px solid rgb(12, 250, 39);
+}
+
+.foot p {
+    padding: 20px;
+}
+
+.foot img {
+    width: 40px;
+    height: 40px;
+}
 @media (min-width: 768px) {
     #contato {
         width: 97%;
