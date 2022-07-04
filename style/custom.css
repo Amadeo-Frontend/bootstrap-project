@@ -18,8 +18,13 @@ textarea {
 
 header ul {
     padding: 20px;
-    margin: 10px;
+    margin-top: 20px;
 
+}
+
+header li, a {
+    color: rgb(78, 255, 58) !important;
+    font-size: 1.5rem;
 }
 
 header {
@@ -27,8 +32,9 @@ header {
 }
 
 header img {
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
+    padding: 17px;
 }
 
 header h1 {
