@@ -42,12 +42,12 @@ header h1 {
 }
 
 .card {
-    width: 30%;
-    float: left;
+    padding: 20px;
     margin: 5px;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px rgb(78, 255, 58);
+    box-shadow: -5px -5px 10px rgb(78, 255, 58), 5px 5px 10px 3px blue;
     overflow: hidden;
+
 }
 
 .text {
@@ -67,8 +67,11 @@ header h1 {
 }
 
 #sobre img {
-    width: 95%;
+    width: 98%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #sobre h2 {
@@ -113,8 +116,24 @@ header h1 {
     height: 40px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+
     #contato {
         width: 97%;
+    }
+
+    #produtos .col {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 990px) {
+    #sobre {
+        display: block !important;
+
     }
 }
