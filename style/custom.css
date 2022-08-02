@@ -67,11 +67,12 @@ header h1 {
 }
 
 #sobre img {
-    width: 98%;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
 }
 
 #sobre h2 {
