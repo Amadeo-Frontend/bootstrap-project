@@ -103,12 +103,15 @@ header h1 {
 #contato p, h2 {
     padding: 10px;
 }
-.card a{
+
+.card a {
     color: rgb(254, 32, 32) !important;
 }
+
 #modal-3 a, #modal-2 a, #modal-1 a {
     color: blue !important;
 }
+
 .foot {
     border-top: 1px solid rgb(12, 250, 39);
 }
